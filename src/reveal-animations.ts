@@ -1,6 +1,7 @@
-import { createGlobalStyle, keyframes } from 'styled-components';
-import * as animations from './animations';
-
+// @ts-ignore
+import bounceInLeft from 'react-animations/lib/bounce-in-left';
+// @ts-ignore
+import bounceInRight from 'react-animations/lib/bounce-in-right';
 // @ts-ignore
 import fadeIn from 'react-animations/lib/fade-in';
 // @ts-ignore
@@ -11,10 +12,8 @@ import fadeInRight from 'react-animations/lib/fade-in-right';
 import slideInLeft from 'react-animations/lib/slide-in-left';
 // @ts-ignore
 import slideInRight from 'react-animations/lib/slide-in-right';
-// @ts-ignore
-import bounceInLeft from 'react-animations/lib/bounce-in-left';
-// @ts-ignore
-import bounceInRight from 'react-animations/lib/bounce-in-right';
+import {createGlobalStyle, keyframes} from 'styled-components';
+import {fadeInUp} from './animations';
 
 export enum Animation {
   FadeInUp = 'fade-in-up',
@@ -27,10 +26,10 @@ export enum Animation {
   BounceInRight = 'bounce-in-right',
 }
 
-export const RevealGlobalStyles = createGlobalStyle`
+export const ReactGenieAnimations = createGlobalStyle`
 
   .${Animation.FadeInUp} {
-    animation: ${keyframes`${animations.fadeInUp}`} 500ms;
+    animation: ${keyframes`${fadeInUp}`} 500ms;
   } 
   
   .${Animation.FadeIn} {
