@@ -12,7 +12,9 @@ import fadeInRight from 'react-animations/lib/fade-in-right';
 import slideInLeft from 'react-animations/lib/slide-in-left';
 // @ts-ignore
 import slideInRight from 'react-animations/lib/slide-in-right';
+
 import {createGlobalStyle, keyframes} from 'styled-components';
+
 import {fadeInUp} from './animations';
 
 export enum Animation {

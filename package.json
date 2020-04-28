@@ -41,10 +41,15 @@
     "@types/react-dom": "^16.9.7",
     "@types/styled-components": "^5.1.0",
     "husky": "^4.2.5",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
+    "react": ">= 16.8.0",
+    "react-dom": ">= 16.8.0",
     "tsdx": "^0.13.2",
     "tslib": "^1.11.1",
     "typescript": "^3.8.3"
+  },
+  "dependencies": {
+    "react-animations": "^1.0.0",
+    "react-is": ">= 16.8.0",
+    "styled-components": "^5.1.0"
   }
 }
