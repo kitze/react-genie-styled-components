@@ -37,12 +37,12 @@
   "module": "dist/react-genie-styled-components.esm.js",
   "devDependencies": {
     "@types/jest": "^25.2.1",
-    "@types/react": "^16.9.34",
+    "@types/react": "^19.3.0",
     "@types/react-dom": "^16.9.7",
     "@types/styled-components": "^5.1.0",
     "husky": "^4.2.5",
-    "react": ">= 16.8.0",
-    "react-dom": ">= 16.8.0",
+    "react": ">= 19.3.1",
+    "react-dom": ">= 19.3.1",
     "tsdx": "^0.13.2",
     "tslib": "^1.11.1",
     "typescript": "^3.8.3"
